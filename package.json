@@ -1,15 +1,23 @@
 {
   "name": "dxfp-to-srt",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "bin": {
+    "dxfp-to-srt": "./index.js" 
+  },
+  "author": "Matt Carpenter",
+  "homepage": "https://github.com/mattcarpenter/gist-dxfp-to-srt#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattcarpenter/gist-dxpf-to-srt.git"
+  },
+  "license": "MIT",
   "dependencies": {
-    "commander": "^2.16.0",
-    "libxmljs": "^0.19.1"
+    "commander": "2.16.0",
+    "libxmljs": "0.19.1"
   }
 }
